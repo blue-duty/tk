@@ -1,0 +1,31 @@
+.set{
+    float: left;
+}
+
+.set:first-child .ant-form-item-label{
+    width: 120px;
+}
+
+.set:not(:first-child) .ant-form-item-label{
+    width: 100px;
+}
+
+.set:not(:first-child) .ant-form-item-control{
+    width: 120px;
+}
+
+.setInput .ant-form-item-control{
+    width: 200px !important;
+}
+
+.setRadio{
+    margin-right: 25px;
+}
+
+.setMail{
+    width: 220px;
+}
+
+.test-btn{
+    margin-left: 40px;
+}

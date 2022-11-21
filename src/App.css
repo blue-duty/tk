@@ -1,0 +1,322 @@
+.trigger {
+    font-size: 16px;
+    line-height: 40px;
+    cursor: pointer;
+    transition: color 0.3s;
+    color: #fff;
+    margin-left: 35px;
+}
+
+.trigger:hover {
+    color: #1d74b2;
+}
+
+.logo {
+    width: 180px;
+    height: 100%;
+}
+
+.logo img{
+    width: 70%;
+    height: 65%;
+    margin: 11px 0 0 10px;
+}
+
+.logo > h1 {
+    color: white;
+    font-weight: bold;
+    line-height: 32px; /*设置line-height与父级元素的height相等*/
+    text-align: center; /*设置文本水平居中*/
+    display: inline-block;
+    font-size: 18px;
+    font-family: Merriweather;
+}
+
+.logo span{
+    color: white;
+    font-family: 微软雅黑;
+}
+
+.layout{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.site-page-header-ghost-wrapper {
+    background-color: #FFF;
+}
+
+.ant-menu-vertical{
+    background-color: #223142 !important;
+}
+
+.ant-layout-sider{
+    background: #223142;
+}
+
+.ant-menu-inline{
+    background: #223142 !important;
+}
+
+.ant-menu-inline .ant-menu-submenu-title{
+    margin-top: 0 !important;
+}
+
+.ant-menu-item-icon{
+    font-size: 16px !important;
+}
+
+.ant-menu-item-selected {
+    background-color: #394655 !important;
+}
+
+.ant-menu-item-selected span{
+    color: #1d74b2 !important;
+}
+
+.ant-menu-item-active{
+    background-color: #394655 !important;
+}
+
+.ant-menu-item-active span{
+    color: #1d74b2 !important;
+}
+
+.layout-header {
+    height: 55px;
+    align-items: center;
+    padding: 0 16px 0 0;
+    background: #1d74b2;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+}
+
+.layout-header-right {
+    padding: 0 12px;
+    cursor: pointer;
+    transition: all .3s;
+    height: 55px;
+    color: #fff;
+}
+
+.layout-header-right-item {
+    margin: 0 6px;
+    display: inline-block;
+    height: 55px;
+}
+
+.nickname {
+    line-height: 30px;
+    height: 55px;
+    width: 250px;
+    text-align: left;
+    float: right;
+    position: relative;
+    font-size: 14px;
+}
+
+.badge{
+    position: absolute;
+    left: 50px;
+    top: 18px;
+    font-size: 19px;
+    color:#bbb9b9;
+}
+
+.badge .ant-badge-multiple-words{
+    padding: 0 3px!important;
+}
+
+.avatar{
+    width: 32px;
+    height: 60%;
+    border-radius: 25px;
+    position: absolute;
+    left: 82px;
+    top: 11px;
+}
+
+.box1-1{
+    position: absolute;
+    left: 120px;
+    top: 0;
+    max-width: 88px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.box1-1 a{
+    color: white;
+}
+
+.box1-2{
+    position: absolute;
+    left: 120px;
+    top: 23px;
+    max-width: 88px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+.loginpop{
+    position: absolute;
+    left: 200px;
+    top: 13px;
+}
+
+.mesCount .ant-modal-body{
+    padding-bottom: 0;
+}
+
+.page-herder {
+    margin: 16px 16px 0 16px;
+}
+
+.page-search {
+    background-color: white;
+    margin: 16px 16px 0 16px;
+    padding: 16px;
+}
+
+.page-search label {
+    font-weight: bold;
+}
+
+.page-search .ant-form-item {
+    margin-bottom: 0;
+}
+
+.page-content {
+    margin: 10px;
+    padding: 10px;
+}
+
+.ant-btn{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 4px 6px;
+    height: 30px;
+    text-align: center;
+}
+
+.ant-table-thead > tr > th{
+    font-weight: 600;
+}
+
+.page-card {
+    margin: 16px;
+}
+
+.user-in-menu {
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+}
+
+.user-in-menu > .nickname {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: fit-content;
+    border-radius: 5%;
+}
+
+.modal-no-padding .ant-modal-body {
+    padding: 0;
+}
+
+.ant-divider-horizontal{
+    margin: 10px 0;
+}
+
+.ant-modal{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.ant-modal-header{
+    font-size: 15px;
+    background-color: #f7f7f7;
+}
+
+.ant-form-small .ant-form-item-label > label{
+    font-size: 12px;
+}
+
+.ant-input{
+    font-size: 12px!important;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 3px;
+}
+.ant-input-number{
+    font-size: 12px!important;
+}
+.ant-select{
+    font-size: 12px!important;
+}
+.ant-form-small span.ant-radio + *{
+    font-size: 12px!important;
+}
+.ant-form-small .ant-checkbox + span{
+    font-size: 12px!important;
+}
+
+.ant-form-small .ant-input-number-input{
+    height: 25px;
+    line-height: 28px;
+    border-radius: 3px;
+}
+
+.ant-form-small .ant-input-number-group-addon{
+    font-size: 12px!important;
+}
+
+.ant-form-small .ant-select-selector{
+    height: 28px!important;
+    border-radius: 3px;
+}
+
+.ant-form-small .ant-picker{
+    height: 28px!important;
+    width: 100%;
+}
+
+.ant-form-small .ant-picker-input > input{
+    font-size: 12px;
+}
+
+.ant-card-head-title{
+    padding: 10px 0;
+}
+.ant-form-small .ant-tree{
+    font-size: 12px!important;
+}
+.ant-drawer-header{
+    background-color: #f7f7f7;
+}
+
+.rowBackground{
+    background-color: #f0f5ff !important;
+}
+
+.btnTool{
+    position: relative;
+}
+
+.btnTool2{
+    position: absolute;
+    top: -6px;
+}

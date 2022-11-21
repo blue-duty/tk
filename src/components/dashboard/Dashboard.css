@@ -1,0 +1,99 @@
+.text-center{
+    width: 100px;
+    text-align: center;
+}
+.disable-link {
+    pointer-events: none;
+}
+
+.card-1{
+    height: 100px;
+    margin-top:10px ;
+    background-color: #00afaf;
+}
+.card-2{
+    height: 100px;
+    margin-top:10px ;
+    background-color: #1d74b2;
+}
+.card-3{
+    height: 100px;
+    margin-top:10px ;
+    background-color: #4169E1;
+}
+.card-4{
+    height: 100px;
+    margin-top:10px ;
+    background-color: seagreen;
+}
+
+.total{
+    margin-top: -5px;
+}
+
+.left {
+    float: left;
+    width: 65%;
+    height: 65px;
+    line-height: 65px;
+}
+
+.right {
+    float: right;
+    width: 35%;
+    height: 65px;
+    color: #fff;
+    text-align: center;
+}
+
+.right-1{
+    height: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right-2 {
+    height: 50%;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.icon{
+    font-size: 38px;
+    color: #fff !important;
+}
+
+.ant-card-head-title{
+    color: #666;
+}
+
+.card-box .ant-card-body {
+    padding: 10px 10px;
+}
+
+.box{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #cfcfcfb5;
+}
+
+.box_left{
+    width: 70%;
+    float: left;
+    margin-left: 3%;
+}
+
+.box_right{
+    width: 25%;
+    float: right;
+}
+
+.num{
+    display: inline-block;
+    width: 18px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 10px;
+}
